@@ -1,0 +1,8 @@
+.main-container {
+  background-color: #f0f0f0; /* Set background color */
+  /* background-image: url('./assest/Image/about_section.png'); Set background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure the container takes up the full height of the viewport */
+  padding-top: 80px; /* Adjust top padding to accommodate the fixed navbar */
+}

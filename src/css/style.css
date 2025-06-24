@@ -1,0 +1,97 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.1ms ease;
+    -webkit-transition: 0.1ms ease;
+    -moz-transition: 0.1ms ease;
+    -ms-transition: 0.1ms ease;
+    -o-transition: 0.1ms ease;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #008080;
+    margin-bottom: 1rem;
+}
+
+/* Main container and layout */
+.main-container {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Buttons */
+button, .btn, input[type="submit"] {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover {
+    background-color: #e65b4f;
+}
+
+/* Links */
+a {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Forms */
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border-color: #008080;
+    outline: none;
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+/* Navbar and footer spacing adjustments will be handled in their respective CSS files */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

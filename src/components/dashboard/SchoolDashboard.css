@@ -1,0 +1,34 @@
+.college-info-table table {
+    width: 100%;
+  }
+  
+  .college-info-table td {
+    padding: 8px;
+    border-top: 1px solid #dee2e6; /* Light gray top border */
+  }
+  
+  .college-info-table td:first-child {
+    font-weight: bold;
+    width: 40%; /* Adjust width as needed */
+  }
+  
+  .college-info-table td:nth-child(odd) {
+    width: 10%; /* Adjust width as needed */
+  }
+  
+  .college-info-table td:nth-child(even) {
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  /* Optional: Add vertical line between cells */
+  .college-info-table td:nth-child(odd) {
+    border-right: 1px solid #dee2e6; /* Light gray vertical line */
+  }
+  
+  .college-info-table th {
+    background-color: #f8f9fa; /* Light gray background for table headers */
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+  }
+  

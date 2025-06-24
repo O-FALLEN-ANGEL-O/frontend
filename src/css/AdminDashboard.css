@@ -1,0 +1,45 @@
+/* AdminDashboard.css */
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100vh; /* Full height sidebar */
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+  }
+  
+  .sidebar .nav-link {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .sidebar .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Content Styles */
+  .col-md-9 {
+    padding-top: 20px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 992px) {
+    .sidebar {
+      display: none; /* Hide sidebar on smaller screens */
+    }
+    .col-md-9 {
+      width: 100%; /* Expand content to full width */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      display: block; /* Display sidebar as a block */
+    }
+  }
+  

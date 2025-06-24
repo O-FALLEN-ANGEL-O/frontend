@@ -1,0 +1,11 @@
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 -5px; /* Adjust the space between cards */
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin: 0 5px; /* Adjust the space between cards */
+  }
+  

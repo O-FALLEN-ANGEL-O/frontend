@@ -1,0 +1,92 @@
+/* Redesigned Navbar styles with new color scheme and fonts */
+
+.navbar {
+  background-color: #008080;
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-brand img {
+  height: 40px;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  font-weight: 600;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #FF6F61 !important; /* Accent color */
+}
+
+.navbar .dropdown-menu {
+  background-color: #008080;
+  border: none;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+  transition: background-color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #006666;
+}
+
+.navbar-toggler {
+  border: none;
+  color: white !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-outline-success {
+  color: white;
+  border-color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #FF6F61;
+  border-color: #FF6F61;
+  color: #008080;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  color: #008080;
+  font-weight: 700;
+}
+
+.btn-success {
+  background-color: #008080;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #006666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    margin-right: 0;
+    padding: 0.5rem 0;
+  }
+}

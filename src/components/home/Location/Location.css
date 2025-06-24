@@ -1,0 +1,16 @@
+/* Custom CSS for LocationSection component */
+.location {
+    background-color: #f8f9fa00; /* Customize background color as needed */
+    padding: 50px 0;
+}
+
+.main-div-location-left,
+.main-div-internship-right {
+    padding: 20px;
+    background-color: #fff; /* Customize background color as needed */
+    border-radius: 10px;
+}
+
+.main-div-internship-right h2 {
+    color: #333; /* Customize text color as needed */
+}
